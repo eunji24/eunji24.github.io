@@ -1,0 +1,113 @@
+header {
+    background-color: #AEE6A9;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: #F9F9F8;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+#name {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: gray;
+}
+
+header a:link {
+    color: white;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: white;
+}
+
+header a:hover {
+    color: white;
+}
+
+header a:active {
+    color: white;
+}
+
+#content {
+    background-color: white;
+    padding: 2% 10% 10% 10%;
+    margin: 0px 300px 20px 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 520px;
+    text-align: center;
+
+}
+.charater {
+    height: 130px;
+    width: auto;
+}
+
+#meta {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    font-style: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td,
+th {
+    border: 1px solid rgb(201, 200, 200);
+    padding: 5px;
+    width: 200px;
+}
+
+#meta thead {
+    background-color: black;
+    position: relative;
+}
+
+#steam {
+    border-collapse: collapse;
+    border: 1px solid #202837;
+    text-align: center;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#steam thead {
+    background-color: #202837;
+    color: white;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    display: inline-block;
+}
+
+th > div {
+    font-size: 11px;
+    color: rgb(230, 230, 230);
+    position: absolute;
+    top: 15%;
+    right: 5px;
+
+}
+
+#dialogue {
+    text-align: center;
+}
